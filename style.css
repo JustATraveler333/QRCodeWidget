@@ -1,0 +1,45 @@
+/*Light Mode*/
+body{
+    background: hsl(212, 45%, 89%);
+}
+.card{
+    background: hsl(0, 0%, 100%);
+    margin-top: 12%;
+    font-size: 15px;
+    color:black;
+    /* font-family: "Outfit"; */
+    border-radius: 15px;
+    padding: 1.5%;
+    width: 300px;
+    text-align: center;
+}
+.card-img-top{
+    border-radius: 15px;
+}
+.card-title{
+    padding-top: 10px;
+    font-weight: 700;
+}
+.card-text{
+    font-weight: 400;
+}
+
+
+/*Dark Mode*/
+/*
+body{
+    background: hsl(253, 100%, 50%);
+}
+.card{
+    background: hsl(293, 100%, 50%);
+    margin-top: 12%;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    /* font-family: "Outfit";
+}
+.card-title{
+    font-weight: 700;
+}
+.card-text{
+    font-weight: 400;
+}
